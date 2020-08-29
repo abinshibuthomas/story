@@ -3,6 +3,7 @@ package com.example.storybook;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -10,6 +11,8 @@ import java.util.Locale;
 
 public class story1 extends AppCompatActivity {
     ImageView image1;
+    Button playbutton,pausebutton;
+
     TextView tExt1;
 int[] story=new int[]{R.string.story1,R.string.story2,R.string.story3};
 int[] storyImg= new int[]{R.drawable.image,R.drawable.image,R.drawable.image};
